@@ -29,7 +29,7 @@ export function RuahSection() {
             src="/images/ivan-ruiz-hipertermia.jpg"
             alt="Experiencia RUAH - Hipertermia terapéutica con Iván Alejandro Ruiz"
             fill
-            className="object-cover object-[center_30%]"
+            className="object-cover object-[center_10%]"
             sizes="100vw"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-[#085A2C]/60 to-transparent flex items-center px-10">
