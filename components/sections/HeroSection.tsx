@@ -36,7 +36,7 @@ export function HeroSection() {
             {t('surname')}
           </motion.h1>
 
-          <motion.p custom={3} initial="hidden" animate="show" variants={fadeUp} className="text-[0.88rem] text-[#7A7060] leading-[1.9] max-w-[460px] mb-6 font-light">
+          <motion.p custom={3} initial="hidden" animate="show" variants={fadeUp} className="text-[1.1rem] text-[#7A7060] leading-[1.9] max-w-[460px] mb-6 font-light">
             {t('tagline')}
           </motion.p>
 
@@ -62,13 +62,12 @@ export function HeroSection() {
           <div className="bg-white border border-[#0E9A4C]/15 shadow-lg relative overflow-hidden">
             <div className="absolute top-0 left-0 right-0 h-[3px] bg-gradient-to-r from-[#0E9A4C] to-[#F4E932]" />
 
-            {/* Foto hero */}
             <div className="w-full aspect-[3/4] relative overflow-hidden border-b border-[#0E9A4C]/10">
               <Image
                 src="/images/ivan-ruiz-hero.jpg"
                 alt="Iván Alejandro Ruiz - Terapeuta Holointegrativo"
                 fill
-                className="object-cover object-top"
+                className="object-cover object-center"
                 priority
                 sizes="(max-width: 768px) 100vw, 50vw"
               />
