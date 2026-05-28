@@ -9,7 +9,7 @@ const nextConfig: NextConfig = {
     remotePatterns: [],
   },
   experimental: {
-    optimizeCss: true,
+    optimizeCss: false,
   },
 }
 
