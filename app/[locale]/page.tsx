@@ -1,5 +1,8 @@
 import { HeroSection } from '@/components/sections/HeroSection'
 import { StatsBar } from '@/components/sections/StatsBar'
+import { ProblemasSection } from '@/components/sections/ProblemasSection'
+import { TransformacionSection } from '@/components/sections/TransformacionSection'
+import { RutaSection } from '@/components/sections/RutaSection'
 import { SobreSection } from '@/components/sections/SobreSection'
 import { FilosofiaSection } from '@/components/sections/FilosofiaSection'
 import { ZanatteSection } from '@/components/sections/ZanatteSection'
@@ -14,6 +17,9 @@ export default function HomePage() {
     <>
       <HeroSection />
       <StatsBar />
+      <ProblemasSection />
+      <TransformacionSection />
+      <RutaSection />
       <SobreSection />
       <FilosofiaSection />
       <ZanatteSection />
