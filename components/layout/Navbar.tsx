@@ -1,7 +1,7 @@
 'use client'
-
 import { useState, useEffect } from 'react'
 import { useTranslations, useLocale } from 'next-intl'
+import { useRouter, usePathname } from 'next/navigation'
 import Link from 'next/link'
 import { Menu, X } from 'lucide-react'
 import { cn } from '@/lib/utils'
@@ -9,6 +9,8 @@ import { cn } from '@/lib/utils'
 export function Navbar() {
   const t = useTranslations('nav')
   const locale = useLocale()
+  const router = useRouter()
+  const pathname = usePathname()
   const [scrolled, setScrolled] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
 
@@ -26,8 +28,15 @@ export function Navbar() {
     { href: '#contacto', label: t('contacto') },
   ]
 
-  const altLocale = locale === 'es' ? 'en' : 'es'
-  const altHref = locale === 'es' ? '/en' : '/'
+  const switchLocale = () => {
+    if (locale === 'es') {
+      router.push('/en')
+    } else {
+      router.push('/')
+    }
+  }
+
+  const altLocale = locale === 'es' ? 'EN' : 'ES'
 
   return (
     <header
@@ -44,10 +53,9 @@ export function Navbar() {
             <span className="text-[#F4E932]" style={{textShadow:'0 0 0 #c8b800', WebkitTextStroke:'0.5px #c8b800'}}>·</span> Iván Alejandro Ruiz
           </span>
         </Link>
-
         <nav className="hidden md:flex items-center gap-6">
           {links.map((link) => (
-            <a
+            
               key={link.href}
               href={link.href}
               className="text-[0.72rem] tracking-widest uppercase text-[#7A7060] hover:text-[#0E9A4C] transition-colors font-medium"
@@ -55,14 +63,13 @@ export function Navbar() {
               {link.label}
             </a>
           ))}
-          <Link
-            href={altHref}
-            className="text-[0.68rem] tracking-widest uppercase border border-[#0E9A4C]/30 px-3 py-1.5 text-[#0E9A4C] hover:bg-[#0E9A4C]/10 transition-colors"
+          <button
+            onClick={switchLocale}
+            className="text-[0.68rem] tracking-widest uppercase border border-[#0E9A4C]/30 px-3 py-1.5 text-[#0E9A4C] hover:bg-[#0E9A4C]/10 transition-colors cursor-pointer"
           >
-            {altLocale.toUpperCase()}
-          </Link>
+            {altLocale}
+          </button>
         </nav>
-
         <button
           className="md:hidden text-[#1A1F1A]"
           onClick={() => setMobileOpen(!mobileOpen)}
@@ -71,11 +78,10 @@ export function Navbar() {
           {mobileOpen ? <X size={22} /> : <Menu size={22} />}
         </button>
       </div>
-
       {mobileOpen && (
         <div className="md:hidden bg-[#F5F0E8]/98 border-t border-[#0E9A4C]/15 px-6 py-6 flex flex-col gap-4">
           {links.map((link) => (
-            <a
+            
               key={link.href}
               href={link.href}
               onClick={() => setMobileOpen(false)}
@@ -84,9 +90,12 @@ export function Navbar() {
               {link.label}
             </a>
           ))}
-          <Link href={altHref} className="text-[0.72rem] tracking-widest uppercase text-[#0E9A4C] mt-2">
-            {altLocale.toUpperCase()} version
-          </Link>
+          <button
+            onClick={switchLocale}
+            className="text-[0.72rem] tracking-widest uppercase text-[#0E9A4C] mt-2 text-left"
+          >
+            {altLocale} version
+          </button>
         </div>
       )}
     </header>
