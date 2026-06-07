@@ -7,12 +7,12 @@
     "contacto": "Contacto"
   },
   "hero": {
-    "eyebrow": "Bogotá, Colombia · Bienestar Integral",
+    "eyebrow": "Bogotá, Colombia · Terapeuta Holointegrativo",
     "name": "Iván",
     "surname": "Alejandro Ruiz",
-    "tagline": "Integro ciencia, cuerpo, emoción y conciencia para acompañar procesos reales de bienestar, transformación y reconexión humana.",
-    "cta_primary": "Conocer RUAH",
-    "cta_secondary": "Agendar sesión",
+    "tagline": "Recupera tu energía física, emocional y mental mediante experiencias profundas de restauración y reconexión. Creador de RUAH y fundador de ZANATTE.",
+    "cta_primary": "Experiencia RUAH",
+    "cta_secondary": "Agendar valoración",
     "pills": ["Ing. Mecatrónico", "Terapeuta Holointegrativo", "Herbólogo", "Fundador ZANATTE"]
   },
   "sobre": {
@@ -21,7 +21,7 @@
     "title_em": "conciencia",
     "p1": "Soy Ingeniero Mecatrónico de la Universidad Nacional de Colombia y terapeuta holointegrativo certificado por AMHI Internacional. Esa combinación no es accidental — es la esencia de todo mi trabajo.",
     "p2": "Mi camino me llevó a comprender que el cuerpo humano no es solo una máquina biológica. Es un sistema vivo donde las emociones, los hábitos, la energía y la conciencia se entrelazan profundamente.",
-    "p3": "Fundé ZANATTE con la visión de crear un ecosistema donde las personas puedan comprender el origen real de su malestar y transitar hacia una transformación integral auténtica.",
+    "p3": "Fundé ZANATTE con la visión de crear un ecosistema donde las personas puedan comprender el origen real de su malestar y transitar hacia una restauración integral auténtica.",
     "quote": "Sana tu cuerpo, sana tu mente, sana tu alma.",
     "creds": [
       { "badge": "UN", "title": "Ingeniero Mecatrónico", "sub": "Universidad Nacional de Colombia" },
@@ -29,6 +29,40 @@
       { "badge": "HB", "title": "Herbólogo", "sub": "Formación FUNIBÁ" },
       { "badge": "ZA", "title": "Fundador · ZANATTE", "sub": "Centro Holointegrativo · Bogotá, Colombia" },
       { "badge": "RH", "title": "Creador de la Experiencia RUAH", "sub": "Restauración y Reconexión Integral" }
+    ]
+  },
+  "problemas": {
+    "tag": "¿Te identificas?",
+    "title": "Situaciones que",
+    "title_em": "acompañamos",
+    "intro": "Antes de hablar de terapias, hablemos de lo que estás viviendo. Estos son los estados con los que más llegan las personas que trabajan conmigo.",
+    "items": [
+      { "icon": "⚡", "title": "Estrés y agotamiento", "text": "Cansancio que no desaparece con el descanso. Tensión constante que afecta tu rendimiento y relaciones." },
+      { "icon": "🌀", "title": "Ansiedad y mente acelerada", "text": "Pensamientos que no paran. Dificultad para estar presente. Sensación de no tener el control." },
+      { "icon": "💤", "title": "Insomnio y mal descanso", "text": "Noches difíciles que afectan tu día. El cuerpo no recupera aunque duermas." },
+      { "icon": "🔥", "title": "Dolor crónico y migrañas", "text": "Tensión muscular, dolores de cabeza y molestias digestivas que los medicamentos no resuelven de fondo." },
+      { "icon": "🧭", "title": "Desconexión y falta de propósito", "text": "Sensación de ir en piloto automático. Vacío, falta de motivación o dirección clara." },
+      { "icon": "🌿", "title": "Buscas salud integral", "text": "Quieres algo más allá de la medicina convencional. Una visión que integre cuerpo, emoción y conciencia." }
+    ]
+  },
+  "transformacion": {
+    "tag": "El cambio real",
+    "title": "De dónde vienes",
+    "title_em": "a dónde vas",
+    "antes": ["Agotamiento y tensión constante", "Mente acelerada y ansiedad", "Dolor crónico sin solución", "Desconexión contigo mismo", "Falta de claridad y propósito"],
+    "despues": ["Energía renovada y vitalidad", "Calma mental y equilibrio emocional", "Cuerpo restaurado y sin bloqueos", "Reconexión profunda contigo", "Claridad y dirección en tu vida"]
+  },
+  "ruta": {
+    "tag": "El camino contigo",
+    "title": "¿Cómo funciona",
+    "title_em": "el proceso?",
+    "intro": "No existe una receta universal. Cada proceso es diseñado para ti. Aquí está el mapa general del camino que recorremos juntos.",
+    "steps": [
+      { "num": "1", "title": "Valoración inicial", "text": "Escucho tu historia, síntomas y objetivos desde una perspectiva integral." },
+      { "num": "2", "title": "Experiencia RUAH", "text": "Sesión inmersiva de diagnóstico y restauración profunda." },
+      { "num": "3", "title": "Protocolo personalizado", "text": "Plan de terapias diseñado específicamente para tu situación." },
+      { "num": "4", "title": "Seguimiento", "text": "Ajustamos según tu evolución. El proceso es vivo y flexible." },
+      { "num": "5", "title": "Comunidad", "text": "Retiros, talleres y programas para mantener y profundizar tu bienestar." }
     ]
   },
   "filosofia": {
@@ -42,7 +76,7 @@
       { "num": "03", "title": "Energético", "text": "El contacto con frecuencias bajas, entornos negativos y factores físico-emocionales impactan el campo energético del ser." }
     ],
     "vision": [
-      { "icon": "👤", "label": "Cuerpo", "text": "El cuerpo guarda memoria emocional. Trabajarlo es la puerta más honesta hacia la transformación." },
+      { "icon": "👤", "label": "Cuerpo", "text": "El cuerpo guarda memoria emocional. Trabajarlo es la puerta más honesta hacia la restauración." },
       { "icon": "🏠", "label": "Casa", "text": "El entorno donde vivimos refleja y afecta nuestro estado interno. Sanar el espacio es sanar la vida." },
       { "icon": "🌍", "label": "Planeta", "text": "La conexión con la naturaleza y la medicina ancestral es fuente de sanación real y profunda." }
     ]
@@ -50,9 +84,9 @@
   "zanatte": {
     "tag": "El Centro",
     "title": "Un ecosistema de",
-    "title_em": "sanación integral",
-    "p1": "ZANATTE no es un consultorio. Es un espacio de transformación donde cada persona es acompañada desde una visión integral — cuerpo, emoción, energía y conciencia.",
-    "p2": "Trabajamos con personas que sienten estrés, ansiedad, agotamiento emocional y bloqueos que la medicina convencional no logra resolver completamente.",
+    "title_em": "bienestar integral",
+    "p1": "ZANATTE es el espacio físico donde ocurren las terapias, experiencias y retiros. No es un consultorio — es un ecosistema completo donde cada persona es acompañada desde una visión integral.",
+    "p2": "Las terapias individuales son herramientas. Lo que genera resultados reales es el protocolo personalizado que diseñamos según tu diagnóstico.",
     "terapias": [
       { "name": "Iridiología", "desc": "Diagnóstico integral por el iris. Revela el estado de órganos y emociones." },
       { "name": "Sauna Multifuncional", "desc": "Desintoxicación con vapor de plantas medicinales y ortigamiento consciente." },
@@ -64,10 +98,10 @@
     "cta": "Visitar zanatte.com.co"
   },
   "ruah": {
-    "tag": "Experiencia Insignia",
+    "tag": "Experiencia Insignia · Lo más completo que ofrezco",
     "title": "RUAH",
     "subtitle": "Restauración y Reconexión Integral",
-    "desc": "Una experiencia terapéutica profunda de 3 horas para salir del estado de supervivencia física, emocional y mental. Privada, personalizada, conscientemente guiada.",
+    "desc": "Una experiencia terapéutica profunda de 3 horas para salir del estado de supervivencia física, emocional y mental. No es una terapia suelta — es la puerta de entrada más poderosa a tu proceso de restauración. Privada, personalizada, conscientemente guiada.",
     "phases": [
       { "tag": "Fase 1", "title": "Apertura y Escucha", "text": "Conversación terapéutica profunda. Diagnóstico del estado físico, emocional y energético. Intención de la experiencia." },
       { "tag": "Fase 2", "title": "Preparación Consciente", "text": "Respiración consciente, relajación guiada, regulación inicial del sistema nervioso y conexión corporal." },
@@ -96,9 +130,9 @@
     "desc": "RUAH no es solo una sesión. Es la puerta de entrada a un ecosistema de restauración humana que crece contigo.",
     "steps": [
       { "badge": "Ahora", "num": "Etapa 1", "title": "Experiencia Premium Íntima", "text": "Sesiones privadas de RUAH. Atención profundamente personalizada en Bogotá." },
-      { "num": "Etapa 2", "title": "Proceso RUAH", "text": "Acompañamiento continuo, seguimiento metabólico y emocional. Transformación sostenida." },
+      { "num": "Etapa 2", "title": "Proceso RUAH", "text": "Acompañamiento continuo, seguimiento metabólico y emocional. Restauración sostenida." },
       { "num": "Etapa 3", "title": "Membresía y Comunidad", "text": "Talleres de alimentación, biología de las emociones, ebooks y materiales digitales." },
-      { "num": "Etapa 4", "title": "Retiros de Restauración", "text": "Experiencias inmersivas de transformación integral en espacios naturales." },
+      { "num": "Etapa 4", "title": "Retiros de Restauración", "text": "Experiencias inmersivas de bienestar integral en espacios naturales." },
       { "num": "Etapa 5", "title": "Centro Interdisciplinario", "text": "Centro de restauración humana de clase mundial en Colombia." }
     ]
   },
@@ -115,7 +149,7 @@
   "contacto": {
     "tag": "Contacto",
     "title": "Agenda tu",
-    "title_em": "experiencia RUAH",
+    "title_em": "valoración inicial",
     "whatsapp": "314 411 43 02",
     "email": "iaruizh@gmail.com",
     "location": "Bogotá, Colombia",
@@ -128,9 +162,10 @@
       "message": "Cuéntame cómo te sientes o qué buscas...",
       "submit": "Enviar mensaje",
       "options": [
-        "Sesión Individual RUAH",
-        "Sesión en Pareja RUAH",
-        "Iridiología · Diagnóstico integral",
+        "Experiencia RUAH · Individual",
+        "Experiencia RUAH · En Pareja",
+        "Valoración integral (diagnóstico)",
+        "Iridiología",
         "Terapia de Hologramas",
         "Masaje Reestructurativo",
         "Gemoterapia",
@@ -140,14 +175,14 @@
     }
   },
   "footer": {
-    "tagline": "Sanación para tu cuerpo, mente y alma",
+    "tagline": "Restauración para tu cuerpo, mente y alma",
     "rights": "Todos los derechos reservados"
   },
   "meta": {
     "home": {
       "title": "Iván Alejandro Ruiz | Terapeuta Holointegrativo · Bogotá",
-      "description": "Ingeniero Mecatrónico y Terapeuta Holointegrativo. Fundador de ZANATTE. Experiencia RUAH de restauración y reconexión integral en Bogotá, Colombia.",
-      "keywords": "terapeuta holointegrativo bogota, RUAH experiencia terapeutica, zanatte sanacion integral, bienestar integral colombia, hipertermia terapeutica"
+      "description": "Recupera tu energía física, emocional y mental. Ingeniero Mecatrónico y Terapeuta Holointegrativo. Fundador de ZANATTE. Experiencia RUAH en Bogotá, Colombia.",
+      "keywords": "terapeuta holointegrativo bogota, RUAH experiencia terapeutica, zanatte sanacion integral, bienestar integral colombia, hipertermia terapeutica, recuperar energia bogota"
     }
   }
 }
