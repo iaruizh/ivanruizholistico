@@ -28,11 +28,11 @@ export function Navbar() {
     { href: '#contacto', label: t('contacto') },
   ]
 
-  const switchLocale = () => {
+ const switchLocale = () => {
     if (locale === 'es') {
-      router.push('/en')
+      window.location.href = '/en'
     } else {
-      router.push('/')
+      window.location.href = '/'
     }
   }
 
